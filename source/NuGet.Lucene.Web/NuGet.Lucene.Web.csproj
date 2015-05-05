@@ -157,9 +157,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Http.OData, Version=5.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Http.OData, Version=5.5.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.OData.5.4.0\lib\net45\System.Web.Http.OData.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.OData.5.5.1\lib\net45\System.Web.Http.OData.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.Owin, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -227,9 +227,11 @@
     <Compile Include="OData\Formatter\Serialization\DefaultStreamAwareEntityTypeSerializer.cs" />
     <Compile Include="OData\Formatter\Serialization\ODataPackageDefaultStreamAwareEntityTypeSerializer.cs" />
     <Compile Include="OData\Formatter\Serialization\ODataPackageDefaultStreamAwareSerializerProvider.cs" />
+    <Compile Include="OData\Routing\Conventions\CompositeKeyPropertyRoutingConvention.cs" />
     <Compile Include="OData\Routing\Conventions\CompositeKeyRoutingConvention.cs" />
     <Compile Include="OData\Routing\Conventions\ControllerAliasingODataRoutingConvention.cs" />
     <Compile Include="OData\Routing\Conventions\EntitySetCountRoutingConvention.cs" />
+    <Compile Include="OData\Routing\Conventions\HttpRouteDataExtensions.cs" />
     <Compile Include="OData\Routing\Conventions\NonBindableActionCountRoutingConvention.cs" />
     <Compile Include="OData\Routing\Conventions\NonBindableActionRoutingConvention.cs" />
     <Compile Include="OData\Routing\CountODataPathHandler.cs" />
